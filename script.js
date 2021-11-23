@@ -30,12 +30,12 @@ if (allTickets != null) {
         <p contenteditable="false" spellcheck="false" class="ticket-text">${task}</p>`;
     mainCont.appendChild(newTicket);
 
-    newTicket.addEventListener("click", (e) => {
+    newTicket.querySelector('.ticket-text').addEventListener("click", (e) => {
       // console.log(e.target.parentNode);
-      if (e.target.classList.contains("selected")) {
-        e.target.classList.remove("selected");
-      } else if (e.target.classList.contains("ticket")) {
-        e.target.classList.add("selected");
+      if (newTicket.classList.contains("selected")) {
+        newTicket.classList.remove("selected");
+      } else if (newTicket.classList.contains("ticket")) {
+        newTicket.classList.add("selected");
       }
     });
   }
@@ -200,11 +200,11 @@ function appendTicket() {
   modalvisible = false;
 
   newTicket.querySelector('.ticket-text').addEventListener("click", (e) => {
-    if (e.target.classList.contains("selected")) {
-      e.target.classList.remove("selected");
+    if (newTicket.classList.contains("selected")) {
+      newTicket.classList.remove("selected");
       // console.log("hello 136");
     } else {
-      e.target.classList.add("selected");
+      newTicket.classList.add("selected");
     }
   });
 
