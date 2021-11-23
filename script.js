@@ -199,7 +199,7 @@ function appendTicket() {
   document.querySelector(".modal").remove();
   modalvisible = false;
 
-  newTicket.addEventListener("click", (e) => {
+  newTicket.querySelector('.ticket-text').addEventListener("click", (e) => {
     if (e.target.classList.contains("selected")) {
       e.target.classList.remove("selected");
       // console.log("hello 136");
