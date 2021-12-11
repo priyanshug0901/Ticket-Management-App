@@ -32,7 +32,14 @@
     </div>
 
 <script src="https://cdn.jsdelivr.net/npm/short-unique-id@latest/dist/short-unique-id.min.js"></script>
-<script src="./script.js"></script>    
+<script src="./script.js"></script> 
+<script>
+    if('serviceWorker' in navigator){
+        window.addEventListener('load',()=>{
+            navigator.serviceWorker.register('/sw.js');
+        });
+    }
+</script>   
 </body>
 </html>
 
