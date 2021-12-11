@@ -1,0 +1,27 @@
+{
+    "short_name": "T0D0",
+    "name": "tasks + unique id",
+    "icons": [
+        {
+            "src": "/_icons_512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+          },
+      
+      {
+        "src": "/_icons_192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      }
+      
+    ],
+    "start_url": "/",
+    "background_color": "#3367D6",
+    "display": "fullscreen",
+    "scope": "/",
+    "theme_color": "#3367D6",
+   
+    "description": "task manager app with unique id,add/remove filter tasks with priority"
+      }
+
+  

@@ -5,6 +5,8 @@ const resourcesToPreache=[
     'index.html',
     'style.css',
     'script.js',
+    '_icon_192.png',
+    '_icon_512.png'
 ];
 
 
