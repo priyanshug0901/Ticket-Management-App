@@ -13,9 +13,9 @@
             "sizes": "384x384"
           },
           {
-            "src": "/maskable_icon_x194.png",
+            "src": "/maskable_icon_x192.png",
             "type": "image/png",
-            "sizes": "194x194"
+            "sizes": "192x192"
           }
 ],
     "start_url": "/",
