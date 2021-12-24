@@ -8,7 +8,9 @@ const resourcesToPreache=[
     'task-list.png',
     'maskable_icon_x192.png',
     'maskable_icon_x512 .png',
-    'maskable_icon_x384.png'
+    'maskable_icon_x384.png',
+    'icons8-multiply-46',
+    'icons8-plus-96',
 ];
 
 

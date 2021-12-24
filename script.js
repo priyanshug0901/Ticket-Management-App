@@ -26,7 +26,7 @@ if (allTickets != null) {
     let newTicket = document.createElement("div");
     newTicket.classList.add("ticket");
     newTicket.innerHTML = `<div class="ticket-priority col-${priority} "></div>
-        <div class="ticket-id"><span class="uuid">#${id}</span> <span class="editbtn editable"><i class="fas fa-edit "></i></span> </div>
+        <div class="ticket-id"><span class="uuid">#${id}</span></div>
         <p contenteditable="false" spellcheck="false" class="ticket-text">${task}</p>`;
     mainCont.appendChild(newTicket);
 
@@ -173,7 +173,7 @@ function appendTicket() {
   let newTicket = document.createElement("div");
   newTicket.classList.add("ticket");
   newTicket.innerHTML = `<div class="ticket-priority col-${selectedPriority} "></div>
-    <div class="ticket-id"><span class="uuid">#${id}</span> <span class="editbtn editable"><i class="fas fa-edit "></i></span> </div>
+    <div class="ticket-id"><span class="uuid">#${id}</span> </div>
     <p  spellcheck="false" class="ticket-text">${textArea.value.trim()}</p>`;
 
   if (textArea.value.trim()) {
